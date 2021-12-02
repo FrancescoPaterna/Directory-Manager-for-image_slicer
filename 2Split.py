@@ -36,6 +36,3 @@ for file in os.listdir(source_path):
         image_slicer.save_tiles(crop_Even, directory=output_path + LEFT_CUT_DIR_NAME,
                                 prefix=LEFT_PREFIX + str(t), format='jpeg')
         t = t + 1
-        continue
-    else:
-        continue
