@@ -1,4 +1,4 @@
-Table used for the example 2split.py
+#Table used for the example 2split.py
 
 #################################################################################################
 source_path = "/home/user/Scrivania/Ducks/"# Where the images are
