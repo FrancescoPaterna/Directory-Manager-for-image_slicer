@@ -31,9 +31,9 @@ for file in os.listdir(source_path):
         crop_frame = image_slicer.slice(source_path + file, 2, save=False)
         crop_Even = (crop_frame[0],)
         crop_Odd = (crop_frame[1],)
-        image_slicer.save_tiles(crop_Even, directory=output_path + RIGHT_CUT_DIR_NAME,
+        image_slicer.save_tiles(crop_Odd, directory=output_path + RIGHT_CUT_DIR_NAME,
                                 prefix=RIGHT_PREFIX + str(t), format='jpeg')
-        image_slicer.save_tiles(crop_Odd, directory=output_path + LEFT_CUT_DIR_NAME,
+        image_slicer.save_tiles(crop_Even, directory=output_path + LEFT_CUT_DIR_NAME,
                                 prefix=LEFT_PREFIX + str(t), format='jpeg')
         t = t + 1
         continue
