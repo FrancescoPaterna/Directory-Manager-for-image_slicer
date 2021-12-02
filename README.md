@@ -3,21 +3,21 @@
 Some directory manager for the python library [image_slicer](https://samdobson.github.io/image_slicer/)
 
 
-## 2split.py 
+# 2split.py 
 Thake the images from a folder, split them in two parts, and puts those cuts in two different directories,
 one for the left part, one for right part.
 
-### Example 
+## Example of 2Split.py 
+### Starting with 2 images of two ducks in a folder 
+![Start](https://github.com/FrancescoPaterna/Directory-Manager-for-image_slicer/blob/dae05302815d30eac35b0c48a6b5003419892fae/examples/start.png)
 
-<img src="https://github.com/FrancescoPaterna/Directory-Manager-for-image_slicer
-/examples/start.png" alt="start_point" width="500"/>
-<img src="https://github.com/FrancescoPaterna/Directory-Manager-for-image_slicer
-/examples/output.png" alt="start_point" width="500"/>
-<img src="https://github.com/FrancescoPaterna/Directory-Manager-for-image_slicer
-/examples/left.png" alt="start_point" width="500"/>
-<img src="https://github.com/FrancescoPaterna/Directory-Manager-for-image_slicer
-/examples/right.png" alt="start_point" width="500"/>
+### The Script generate two folders, one for the ducks on the left and on for the ducks on the right.
+![output](https://github.com/FrancescoPaterna/Directory-Manager-for-image_slicer/blob/dae05302815d30eac35b0c48a6b5003419892fae/examples/output.png)
+![left](https://github.com/FrancescoPaterna/Directory-Manager-for-image_slicer/blob/dae05302815d30eac35b0c48a6b5003419892fae/examples/left.png)
+![right](https://github.com/FrancescoPaterna/Directory-Manager-for-image_slicer/blob/dae05302815d30eac35b0c48a6b5003419892fae/examples/right.png)
 
-## MultipleSplit.py (In developing....) 
+
+
+# MultipleSplit.py (In developing....) 
 Take the images from a folder, split that in N parts choiced by user, and puts those cuts in N diffrent directories,
 one for ever part of the cutted image.
