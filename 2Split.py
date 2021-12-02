@@ -19,7 +19,7 @@ RIGHT_PREFIX = "[INSERT RIGHT_FRAME NAME]" #PRefix for right cuts
 
 
 #WARNING os.mkdir stops the entire script if the folders already exist!
-#TODO wirte if check in v1.02
+#TODO wirte if check in v1.02 to avoid stops by os.mkdir
 
 os.mkdir(output_path + RIGHT_CUT_DIR_NAME)
 os.mkdir(output_path + LEFT_CUT_DIR_NAME)
