@@ -8,7 +8,7 @@ Thake the images from a folder, split them in two parts, and puts those cuts in 
 one for the left part, one for right part. <br>
 
 ## Requirements 
-insert the parameters in the table of [2split.py](https://github.com/FrancescoPaterna/Directory-Manager-for-image_slicer/blob/f2aef96064fa4712672d8acf0c040e649fecef30/2Split.py) like I've done in [example.txt](https://github.com/FrancescoPaterna/Directory-Manager-for-image_slicer/blob/f1decf9b9039dbb9e40872907ad67daf5e479879/examples/example.py) for this demo (full path are preferable). <br><br>
+insert the parameters in the table of [2split.py](https://github.com/FrancescoPaterna/Directory-Manager-for-image_slicer/blob/f2aef96064fa4712672d8acf0c040e649fecef30/2Split.py) like I've done in [example](https://github.com/FrancescoPaterna/Directory-Manager-for-image_slicer/blob/f1decf9b9039dbb9e40872907ad67daf5e479879/examples/example.py) for this demo (full path are preferable). <br><br>
 
 ## Example of 2Split.py 
 Starting with 2 images of two ducks in a folder 
