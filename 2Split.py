@@ -13,7 +13,7 @@ output_path = "[OUTPUT_PATH]" # Where the two directory with the cutted images w
 RIGHT_CUT_DIR_NAME = "[RIGHT_CUT DIR_NAME]" #Name of the directory thay contains the right cuts
 LEFT_CUT_DIR_NAME = "[LEFT_CUT DIR_NAME]" #Name of the directory thay contains the left cuts
 LEFT_PREFIX = "[INSERT LEFT_FRAME NAME]" #Prefix for left cuts
-RIGHT_PREFIX = "[INSERT RIGHT_FRAME NAME]" #PRefix for right cuts
+RIGHT_PREFIX = "[INSERT RIGHT_FRAME NAME]" #Prefix for right cuts
 #################################################################################################
 
 
